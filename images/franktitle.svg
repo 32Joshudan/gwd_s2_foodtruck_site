@@ -3,9 +3,12 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
         font-family: MVBoli, 'MV Boli';
         font-size: 146px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
         stroke: #ed1c24;
         stroke-miterlimit: 10;
         stroke-width: 8px;
@@ -13,4 +16,6 @@
     </style>
   </defs>
   <text class="cls-1" transform="translate(0 115.87)"><tspan x="0" y="0">Frankoyaki</tspan></text>
+  <path class="cls-2" d="m15.46,138.47c134.8-.83,269.6-1.67,404.4-2.5"/>
+  <path class="cls-2" d="m513.29,136.51c57.18-.51,114.35-1.02,171.53-1.54"/>
 </svg>
