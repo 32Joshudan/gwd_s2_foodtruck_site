@@ -16,22 +16,57 @@
 
 <body>
   <header>
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/frankoyakilogo.svg" alt="Logo" width=20% height=20% class="d-inline-block align-text-top">
-        <img src="images/franktitle.svg" alt="Logo" width=50% height=20% class="d-inline-block align-text-top">
-    </div>
 
-    <ul>
-      <div class="container-navigation">
-        <a href=index.html><button class="push">Home</button></a>
-        <button class="push">Menu</button>
-        <a href="preorder.html"><button class="push">Pre-Order</button></a>
-        <a href="schedule.html"><button class="push">Schedule</button></a>
-        <a href="contact.html"><button class="push">Contact Us</button></a>
+    <nav class="navbar navbar-expand-md">
+
+      <div class="container-fluid">
+
+        <a href="#" class="navbar-brand"><img src="images/frankoyakilogo.svg" alt="Logo" width=20% height=20%>
+          <img src="images/franktitle.svg" alt="title" width=70% height=35%></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ms-auto padding-left">
+            <li class="nav-item">
+              <a href="index.html"><button type="button" class="btn btn-danger" class="push">Home</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html"><button type="button" class="btn btn-outline-danger" class="push">Menu</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="preorder.html"><button type="button" class="btn btn-danger" class="push">Pre-Order</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="schedule.html"><button type="button" class="btn btn-danger" class="push">Schedule</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html"><button type="button" class="btn btn-danger" class="push">Contact Us</button></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </ul>
+
+    </nav>
   </header>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; Frankoyaki 2023</span>
+      </div>
+
+      <!--<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>-->
+    </footer>
+  </div>
 
   <script src="js/bootstrap.min.js"></script>
 
