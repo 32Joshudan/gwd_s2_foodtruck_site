@@ -1,11 +1,3 @@
-footer{
-    font-family: Rockwell;
-}
-
-p{
-    font-family: Rockwell;
-}
-
-header{
+header, p, h1, h2, h3, h4 , footer{
     font-family: Rockwell;
 }
