@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    padding: 25px;
+    min-height:40vh;
+}
+
+h3{
+    font-family: sans-serif;
+    color: black;
+}
+
+.container form{
+    font-family: sans-serif;
+    color: black;
+    padding:20px;
+    width:400px;
+    background: #fff;
+}
